@@ -1,0 +1,161 @@
+
+
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+ .colour-container{
+  background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+.colour-panel {
+    margin: 25px;
+    min-height: 100px;
+    width: 30%;
+    border: 1px solid white;
+    text-align: center;
+    display: flexbox;
+    color: black;
+}
+
+ #cyan {
+  background-color: #00ffff;
+ }
+
+#magenta {
+ background-color: #ff00ff;
+}
+
+#yellow {
+  background-color: #ffff00;
+}
+
+#dull-purp {
+ background-color: #8080ff;
+}
+
+#pinkpeaches {
+  background-color: #ff8080;
+}
+
+#limey {
+  background-color: #80ff80;
+}
+
+.font-container {
+  display: flexbox;
+  text-align: center;
+  min-height: 200px;
+ }
+
+.font-box {
+  border: 1px solid black;
+}
+
+.font-label {
+  text-decoration: underline;
+  font-weight: 800;
+  
+
+}
+.font-bold {
+  font-weight: 700;
+}
+
+.font-italic {
+  font-style: italic;
+}
+ 
+#head {
+  text-decoration: none;
+}
+
+#robot {
+ font-family: "Roboto Condensed";
+}
+
+#oz {
+  font-family: oswald;
+}
+
+#sour{
+  font-family: "sour gummy";
+}
+
+#cookie {
+  font-family: cookie;
+  font-size: 25px;
+}
+
+.style-container {
+  border: 1px solid black;
+  text-align: center;
+}
+.style-label {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.style-headings {
+ font-family: "sour gummy";
+}
+
+.para-container {
+  font-family: cookie;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.para-label {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.btn-outline-cyan:hover {
+ font-size: 10px;
+ text-decoration: underline;
+}
+
+.btn-outline-magenta:hover {
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.btn-outline-yellow:hover {
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.btn-outline-dull-purp:hover {
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.btn-outline-pinkpeaches:hover {
+  font-size: 10px;
+  text-decoration: underline;
+  
+}
+
+.btn-outline-limey:hover {
+  font-size: 10px;
+  text-decoration: underline;
+}
